@@ -1,0 +1,295 @@
+/*
+* @Author: Charlie Gallentine
+* @Date:   2019-08-20 16:13:47
+* @Last Modified by:   Charlie Gallentine
+* @Last Modified time: 2019-09-09 12:50:07
+*/
+
+* {
+	box-sizing: border-box;
+	font-family: access;
+	margin: 0;
+	padding: 0;
+
+	--blue: #0016ff;
+	--purple: #711ed6;
+	--white: #FFFFFF;
+
+	--about-width-side: 35vw;
+}
+
+.about-head {
+	color: var(--white);
+	font-family: Access;
+	font-size: 87px;
+	padding-left: 7.6vw;
+	margin-top: 28vw;
+	text-align: left;
+}
+
+.about-left-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.about-text {
+	color: var(--white);
+	font-family: Access;
+	font-size: 32px;
+	margin-top : 2vw;
+	padding: 0;
+	width: 42vw;
+}
+
+.about-left-pad {
+	padding-left: 13vw;
+	width:55vw;
+}
+
+.block {
+	display : block;
+}
+
+.center-children {
+	text-align : center;
+}
+
+.day-break {
+	padding-top: 10vw;
+}
+
+.day-break-2 {
+	padding-top: 10.2vw;
+}
+
+.debug-border {
+	/*border : 2px solid orange;*/
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-grow {
+	flex-grow: 1;
+}
+
+.flex-end {
+	justify-content: flex-end;
+}
+
+.flex-start {
+	justify-content: flex-start;
+}
+
+.flex-space-between {
+	justify-content: space-between;
+}
+
+.flex-align-center {
+	align-items: center;
+}
+
+.height-100 {
+	height : 20px;
+}
+
+.inline-block {
+	display : inline-block;
+}
+
+.move-plan-up {
+	margin-top: -17.5vw;
+}
+
+.navbar {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+}
+
+.none {
+	display: none;
+}
+
+.paragraph-pad-top {
+	padding-top: 1.5vw;
+}
+
+.photos {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 5vw;
+	padding-left: 15vw;
+	width:43vw;
+}
+.photo-top {
+	width: 12.8vw;
+}
+
+.photo-middle {
+	padding-left: 4vw;
+	width: 27vw;
+}
+
+.photo-bottom {
+	float: right;
+	width: 18.5vw;
+}
+
+.plan-header {
+	/*align-self: center;*/
+	font-family: Access;
+	font-size: 87px;
+	padding-left: 35vw;
+	padding-top: 6vw;
+	padding-bottom: 10vw;
+	/*text-align: center;*/
+	width: 78vw;
+}
+
+.plan-pad-right {
+	padding-right: 15vw;
+}
+
+.question-btn {
+	background-color: var(--purple);
+	color: var(--white);
+	font-size: 30.8px;
+	margin-bottom: 4.4vw;
+	margin-top: 5vw;
+	padding: 4.6% 7.3% 4.6% 3.6%;
+	width: 27vw;
+}
+
+.plan-day-text {
+	margin-bottom: 130px;
+}
+
+.plan-time {
+	/*padding-bottom: 1vw;*/
+	color: blue;
+	font-size: 24px;
+	margin-top: 67px;
+	padding: 3px 8px 4px 6px;
+}
+
+.plan-time-pad-open {
+	padding-left: 10vw;
+	margin-bottom: 215px;
+}
+
+.plan-time-pad-left {
+	padding-left: 5vw;
+}
+
+.plan-right-side {
+	align-self: flex-start;
+	width: 22vw;
+}
+
+.plan-vert-line {
+	border: 1px solid black;
+	position: relative;
+	height: 123vw;
+}
+
+.schedule-item {
+	margin-top: 5vw;
+}
+
+.schedule-item-name {
+	background-color: black;
+	color: white;
+	font-size: 33px;
+	padding: 3px 8px 4px 6px;
+}
+
+.schedule-item-text {
+	color: var(--blue);
+	font-size: 24px;
+	padding-left: 2vw;
+	margin-top: -45px;
+	max-width: 33vw;
+}
+
+.schedule-item-line {
+	border-bottom: 2px solid black;
+}
+
+.schedule-item-open {
+	padding-left: 12vw;
+}
+
+.schedule-item-collapsed-long {
+	 /*border-bottom:2px solid black;*/
+	 padding-left:36vw;
+}
+
+.schedule-item-collapsed-short {
+	 /*border-bottom:2px solid black;*/
+	 padding-left: 54vw;
+}
+
+.schedule-item-marker-collapsed {
+	background-color: black;
+	border-radius: 50%;
+	height:21px;
+	margin-right: -11.5px;
+	width:21px;
+	z-index: 1;
+}
+
+.schedule-item-marker-closed {
+	background-color: black;
+	border-radius: 50%;
+	bottom:-10.5px;
+	height:21px;
+	left:-10.5px;
+	margin-right: -10.5px;
+	position: absolute;
+	width:21px;
+	z-index: 1;
+}
+
+.schedule-item-marker-bottom {
+	background-color: black;
+	border-radius: 50%;
+	bottom:-10.5px;
+	height:21px;
+	left:-10.5px;
+	margin-right: -10.5px;
+	position: absolute;
+	width:21px;
+	z-index: 1;
+}
+
+
+.schedule-item-marker-open{
+	background-color: var(--blue);
+	border: 6px solid black;
+	border-radius: 50%;
+	height:187px;
+	margin-right: -93px;
+	width:187px;
+	z-index: 1;
+}
+
+.transition-upper {
+	background-image : url("../static/transition_upper.svg");
+	background-repeat:no-repeat;
+	background-size: 100vw;
+	color : white;
+	height : 140vw; /*Makes box follow size of background transition*/
+	margin : 0;
+	padding : 0;
+}
+
+.width-half {
+	width : 49%;
+}
+
+.width-third {
+	width : 32%;
+}
