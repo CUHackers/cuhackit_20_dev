@@ -1,0 +1,20 @@
+/*
+* @Author: Charlie Gallentine
+* @Date:   2019-09-10 14:11:39
+* @Last Modified by:   Charlie Gallentine
+* @Last Modified time: 2019-09-10 14:33:07
+*/
+
+.bordered-square {
+	border: 2px solid black;
+}
+
+#squares-top {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.square {
+	position: absolute;
+}
