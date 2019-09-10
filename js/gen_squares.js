@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-10 14:11:26
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-10 17:03:39
+* @Last Modified time: 2019-09-10 17:31:58
 */
 
 section = document.getElementById('squares-top');
@@ -11,6 +11,33 @@ section.innerHTML += generate_squares_top();
 
 section2 = document.getElementById('squares-about');
 section2.innerHTML += generate_squares_about();
+
+section3 = document.getElementById('squares-bottom');
+section3.innerHTML += generate_squares_bottom();
+
+
+function generate_squares_bottom()
+{
+	var html = "";
+
+	html += gen_square('w',147, 61, .75, 4163, 1156, 1, false);
+	html += gen_square('w',25, 26, .5, 4238, 1303, 1, false);
+	html += gen_square('w',188, 103, .75, 4224, 1056, 1, false);
+	html += gen_square('w',147, 61, .75, 4163, 1156, 1, false);
+	html += gen_square('w',224, 164, .75, 4256, 964, 1, false);
+	html += gen_square('w',197, 85, .5, 4382, 783, 1, false);
+	html += gen_square('w',63, 63, .25, 4448, 722, 1, false);
+	html += gen_square('w',85, 50, .75, 4422, 558, 1, false);
+	html += gen_square('w',201, 99, .5, 4506, 300, 1, false);
+	html += gen_square('w',133, 92, .75, 4550, 264, 1, false);
+	html += gen_square('w',67, 67, .5, 4656, 256, 1, false);
+	html += gen_square('w',160, 84, .75, 4572, 104, 1, false);
+	html += gen_square('w',108, 108, .75, 4615, 93, 1, false);
+	html += gen_square('w',30, 30, .75, 4768, 122, 1, false);
+	html += gen_square('w',104, 110, .75, 4668, 0, 1, false);
+
+	return html;
+}
 
 function generate_squares_about()
 {

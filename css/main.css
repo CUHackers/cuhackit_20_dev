@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-08-20 16:13:47
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-10 16:10:36
+* @Last Modified time: 2019-09-10 17:35:23
 */
 
 * {
@@ -271,9 +271,9 @@ a:hover {
 }
 
 .partners {
-	background-image : url("../static/transition_lower.svg");
+	/*background-image : url("../static/transition_lower.svg");
 	background-repeat:no-repeat;
-	background-size: cover;
+	background-size: cover;*/
 	height: auto; /*219vw;*/
 	margin-top: 100px;
 	padding-top: 1px; /*Crucial for no apparent reason*/
@@ -284,7 +284,7 @@ a:hover {
 	font-size: 87px;
 	margin-bottom: 75px;
 	margin-left: 60vw;
-	margin-top: 588px;
+	margin-top: 688px;
 }
 
 .partner-row-container {
@@ -296,7 +296,7 @@ a:hover {
 	background-color: var(--purple);
 	color: var(--white);
 	font-size: 32px;
-	margin-top: 15px;
+	margin-top: 50px;
 	padding: 8px 10px;
 }
 
@@ -310,6 +310,7 @@ a:hover {
 
 .partner-contact-text {
 	font-size: 28px;
+	margin-top: 50px;
 }
 
 .photos {
@@ -500,6 +501,14 @@ a:hover {
 	padding : 0;
 }
 
+.transition-lower-img {
+	height:3002px;
+	position:absolute;
+	top:4136px;
+	width:100vw;
+	z-index:-100;	
+}
+
 .transition-upper-img {
 	height:1900px;
 	position:absolute;
@@ -531,6 +540,7 @@ a:hover {
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 200px;
 	width: 66vw;
 }
 
