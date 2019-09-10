@@ -2,14 +2,14 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-10 14:11:26
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-10 15:14:50
+* @Last Modified time: 2019-09-10 15:26:02
 */
 
 section = document.getElementById('squares-top');
 
-section.innerHTML += generate_squares();
+section.innerHTML += generate_squares_top();
 
-function generate_squares()
+function generate_squares_top()
 {
 	var html = "";
 

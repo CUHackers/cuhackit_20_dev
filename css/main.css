@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-08-20 16:13:47
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-10 14:52:05
+* @Last Modified time: 2019-09-10 15:56:17
 */
 
 * {
@@ -39,7 +39,7 @@ a:hover {
 	font-family: Access;
 	font-size: 87px;
 	padding-left: 7.6vw;
-	margin-top: 28vw;
+	margin-top: 300px;
 	text-align: left;
 }
 
@@ -52,7 +52,7 @@ a:hover {
 	color: var(--white);
 	font-family: Access;
 	font-size: 32px;
-	margin-top : 2vw;
+	margin-top : 20px;
 	padding: 0;
 	width: 42vw;
 }
@@ -232,13 +232,17 @@ a:hover {
 	list-style: none;
 	justify-content: space-around;
 	padding-right: 12vw;
+	position: fixed;
 	margin-top: 25px;
+	padding-top: 5px 0;
+	width: 100vw;
 	z-index: 1000;
 }
 
 .navbar-colorbug {
 	height: 42.7px;
 	margin-left: 10vw;
+	padding-top: 5px;
 }
 
 .navitem {
@@ -263,13 +267,13 @@ a:hover {
 }
 
 .paragraph-pad-top {
-	padding-top: 1.5vw;
+	padding-top: 50px;
 }
 
 .partners {
 	background-image : url("../static/transition_lower.svg");
 	background-repeat:no-repeat;
-	background-size: 100vw;
+	background-size: cover;
 	height: auto; /*219vw;*/
 	margin-top: 100px;
 	padding-top: 1px; /*Crucial for no apparent reason*/
@@ -312,7 +316,7 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	margin-top: 5vw;
+	margin-top: 50px;
 	padding-left: 15vw;
 	width:43vw;
 }
@@ -335,8 +339,8 @@ a:hover {
 	font-family: Access;
 	font-size: 87px;
 	padding-left: 35vw;
-	padding-top: 6vw;
-	padding-bottom: 50px;
+	margin-top: 50px;
+	margin-bottom: -50px;
 	/*text-align: center;*/
 	width: 78vw;
 }
@@ -353,8 +357,8 @@ a:hover {
 	background-color: var(--purple);
 	color: var(--white);
 	font-size: 30.8px;
-	margin-bottom: 4.4vw;
-	margin-top: 5vw;
+	margin-bottom: 50px;
+	margin-top: 50px;
 	padding: 4.6% 7.3% 4.6% 3.6%;
 	width: 27vw;
 }
@@ -385,7 +389,8 @@ a:hover {
 	border: 1px solid black;
 	position: absolute;
 	margin-right: 22vw;
-	height: 1480px;
+	margin-top: -200px;
+	height: 1800px;
 }
 
 .schedule-item {
@@ -486,11 +491,11 @@ a:hover {
 }
 
 .transition-upper {
-	background-image : url("../static/transition_upper.svg");
+	/*background-image : url("../static/transition_upper.svg");
 	background-repeat:no-repeat;
-	background-size: 100vw;
+	background-size: cover;*/
 	color : white;
-	height : 140vw; /*Makes box follow size of background transition*/
+	height : 1900px; /*Makes box follow size of background transition**/
 	margin : 0;
 	padding : 0;
 }
@@ -509,7 +514,7 @@ a:hover {
 
 
 
-/*========================================================*/
+/*========================================================
 /* Slideshow container */
 .slideshow-container {
 	background-color: white;
