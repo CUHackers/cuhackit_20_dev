@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-08-20 16:13:47
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-09 20:08:34
+* @Last Modified time: 2019-09-10 11:34:27
 */
 
 * {
@@ -14,8 +14,19 @@
 	--blue: #0016ff;
 	--purple: #711ed6;
 	--white: #FFFFFF;
+	--red: #e70000;
 
 	--about-width-side: 35vw;
+
+	transition: .5s;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
 }
 
 .about-head {
@@ -46,8 +57,28 @@
 	width:55vw;
 }
 
+.app-link {
+	color: white;
+	font-size: 28px;
+	padding: 3px 16px 5px 8px;
+}
+
+.app-links {
+	margin-top: 25px;
+}
+
+.app-link-1 {
+	background-color: var(--purple);
+}
+
+.app-link-2 {
+	background-color: var(--blue);
+}
+
 .block {
 	display : block;
+	opacity: 1;
+	transition: opacity 1s;
 }
 
 .center-children {
@@ -60,11 +91,48 @@
 
 
 .debug-border {
-	border : 2px solid orange;
+	border : 0 solid orange;
+}
+
+.font-47 {
+	font-size: 39px;
+}
+
+.font-36 {
+	font-size: 34px;
+}
+
+.font-30 {
+	font-size: 28px;
+}
+
+.helloworld {
+	margin-top: 10px;
+}
+
+.location {
+	margin-top: 20px;
+}
+
+.date {
+
+}
+
+.sub-banner {
+	/*margin-left: 46vw;*/
 }
 
 .flex {
 	display: flex;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-center {
+	justify-content: center;
 }
 
 .flex-grow {
@@ -79,38 +147,116 @@
 	justify-content: flex-start;
 }
 
+.flex-space-around {
+	justify-content: space-around;
+}
+
 .flex-space-between {
 	justify-content: space-between;
+}
+
+.flex-align-start {
+	align-items: flex-start;
 }
 
 .flex-align-center {
 	align-items: center;
 }
 
+.footer-red {
+	background-color: var(--red);
+}
+
+.footer-purple {
+	background-color: var(--purple);
+}
+
+.footer-blue {
+	background-color: var(--blue);
+}
+
+.grid-img {
+	max-width: 12vw;
+}
+
 .height-100 {
-	height : 20px;
+	height : 50px;
 }
 
 .inline-block {
 	display : inline-block;
 }
 
+.logo-top {
+	/*margin-left: 12vw;*/
+	/*margin-top: 290px;*/
+	margin-left: -305px;
+	width: 681px;
+}
+
+.logo-top-container {
+	/*width: 100vw;*/
+	margin-top: 200px;
+	margin-left: 35vw;
+	width: 550px;
+}
+
 .move-plan-up {
 	margin-top: -17.5vw;
+	padding-bottom: 200px;
 }
 
 .navbar {
-	display: flex;
 	list-style: none;
 	justify-content: space-around;
+	padding-right: 12vw;
+	margin-top: 25px;
+}
+
+.navbar-colorbug {
+	height: 42.7px;
+	margin-left: 10vw;
+}
+
+.navitem {
+	color: blue;
+	font-size: 24px;
 }
 
 .none {
 	display: none;
+	opacity: 0;
+	transition: opacity 1s;
 }
 
 .paragraph-pad-top {
 	padding-top: 1.5vw;
+}
+
+.partners {
+	background-image : url("../static/transition_lower.svg");
+	background-repeat:no-repeat;
+	background-size: 100vw;
+	height: auto; /*219vw;*/
+	margin-top: 100px;
+	padding-top: 1px; /*Crucial for no apparent reason*/
+}
+
+.partners-head {
+	color: white;
+	font-size: 87px;
+	margin-bottom: 75px;
+	margin-left: 60vw;
+	margin-top: 588px;
+}
+
+.partner-row-container {
+	width: 100vw;
+	margin: 20px 0;
+}
+
+.partner-row {
+	width: 65%;
 }
 
 .photos {
@@ -146,8 +292,12 @@
 	width: 78vw;
 }
 
-.plan-pad-right {
-	padding-right: 15vw;
+.plan-pad-left {
+	padding-left: 3vw;
+}
+
+.plan-pad-left-open {
+	padding-left : 13vw;
 }
 
 .question-btn {
@@ -177,14 +327,6 @@
 	/*padding: 3px 8px 4px 6px;*/
 }
 
-.plan-time-pad-open {
-	/*padding-right: 5vw;*/
-}
-
-.plan-time-pad-left {
-	/*padding-left: 14.5vw;*/
-}
-
 .plan-right-side {
 	align-self: flex-start;
 	width: 22vw;
@@ -194,7 +336,7 @@
 	border: 1px solid black;
 	position: absolute;
 	margin-right: 22vw;
-	height: 1680px;
+	height: 1480px;
 }
 
 .schedule-item {
@@ -215,6 +357,7 @@
 	padding-left: 2vw;
 	margin-top: -45px;
 	max-width: 33vw;
+	transition: opacity 1s;
 }
 
 .schedule-item-line {
@@ -306,3 +449,118 @@
 .width-third {
 	width : 32%;
 }
+
+
+
+/*========================================================*/
+/* Slideshow container */
+.slideshow-container {
+	background-color: white;
+	height: 550px;
+	max-width: 1000px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 66vw;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  text-align: center;
+}
+
+.slideshow-img {
+	margin-top: 40px;
+	width: 52%;
+}
+
+.slideshow-caption-text {
+	color: black;
+	font-size: 36px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+	align-self: center;
+	cursor: pointer;
+	/*position: absolute;*/
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: rgba(0,0,0,0.8);
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/*@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}*/
+
+/*@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}*/
+/*========================================================*/
+
+
