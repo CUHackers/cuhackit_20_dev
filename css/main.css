@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-08-20 16:13:47
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-10 13:29:10
+* @Last Modified time: 2019-09-10 13:33:12
 */
 
 * {
@@ -27,6 +27,11 @@ body {
 
 a {
 	text-decoration: none;
+	opacity: 1;
+}
+
+a:hover {
+	opacity: .7;
 }
 
 .about-head {
@@ -389,9 +394,16 @@ a {
 .schedule-item-name {
 	background-color: black;
 	color: white;
+	cursor: pointer;
 	font-size: 33px;
+	opacity: 1;
 	padding: 3px 8px 4px 6px;
 }
+
+.schedule-item-name:hover {
+	opacity: 0.7;
+}
+
 
 .schedule-item-text {
 	color: var(--blue);
