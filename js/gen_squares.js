@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-10 14:11:26
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-10 16:45:32
+* @Last Modified time: 2019-09-10 17:03:39
 */
 
 section = document.getElementById('squares-top');
@@ -74,6 +74,12 @@ function generate_squares_about()
 	html += gen_square('r',87, 127, 0.4, 1061, 1237, -1, true);
 	html += gen_square('p',100, 49, 0.25, 1147, 1202, -1, false);
 	html += gen_square('p',59, 27, 0.25, 1224, 1207, -1, false);
+	html += gen_square('w',108, 108, 0.75, 1344, 1169, -1, false);
+	html += gen_square('r',18, 18, 0.25, 1028, 1321, -1, false);
+	html += gen_square('b',63, 63, 0.4, 1158, 1286, -1, false);
+	html += gen_square('r',45, 45, 0.4, 1249, 1301, -1, true);
+	html += gen_square('b',16, 16, 0.4, 1291, 1294, -1, false);
+	html += gen_square('w',100, 110, 0.75, 1397, 1266, -1, false);
 
 	return html;
 }
