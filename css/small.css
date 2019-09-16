@@ -1,11 +1,11 @@
 /*
 * @Author: Charlie Gallentine
-* @Date:   2019-08-20 16:13:47
+* @Date:   2019-09-15 16:43:40
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-15 22:29:05
+* @Last Modified time: 2019-09-15 21:21:07
 */
 
-@media(min-width:1150px)
+@media(min-width:720px)
 {
 * {
 	box-sizing: border-box;
@@ -21,6 +21,8 @@
 	--about-width-side: 35vw;
 
 	--faq-right-adj: 22vw;
+
+	--header-font-size: 64px;
 
 	transition: .5s;
 
@@ -44,9 +46,9 @@ a:hover {
 .about-head {
 	color: var(--white);
 	font-family: Access;
-	font-size: 87px;
+	font-size: var(--header-font-size);
 	padding-left: 7.6vw;
-	margin-top: 750px;
+	margin-top: 950px;
 	text-align: left;
 }
 
@@ -58,7 +60,7 @@ a:hover {
 .about-text {
 	color: var(--white);
 	font-family: Access;
-	font-size: 32px;
+	font-size: 24px;
 	margin-top : 20px;
 	padding: 0;
 	width: 42vw;
@@ -71,8 +73,8 @@ a:hover {
 
 .app-link {
 	color: white;
-	font-size: 28px;
-	padding: 3px 16px 5px 8px;
+	font-size: 22px;
+	padding: 3px 10px 5px 8px;
 }
 
 .app-links {
@@ -87,7 +89,7 @@ a:hover {
 .app-link-2 {
 	background-color: var(--blue);
 	color: var(--white);
-	margin-right: 0;
+	margin-right: 30px;
 }
 
 .block {
@@ -102,7 +104,7 @@ a:hover {
 
 .contact-btn {
 	color: white;
-	font-size: 64px;
+	font-size: 24px;
 }
 
 .day-break {
@@ -114,28 +116,19 @@ a:hover {
 	/*border : 1px solid orange;*/
 }
 
-.font-47 {
-	font-size: 39px;
-}
-
-.font-36 {
-	font-size: 34px;
-}
-
-.font-30 {
-	font-size: 28px;
-}
 
 .helloworld {
+	font-size:22px;
 	margin-top: 10px;
 }
 
 .location {
+	font-size: 18px;
 	margin-top: 20px;
 }
 
 .date {
-
+	font-size: 18px;
 }
 
 .sub-banner {
@@ -206,7 +199,7 @@ a:hover {
 
 .grid-img {
 	width: 22%;
-	max-width: 400px;
+	max-width: 12%;
 }
 
 .height-100 {
@@ -220,14 +213,15 @@ a:hover {
 .logo-top {
 	/*margin-left: 12vw;*/
 	/*margin-top: 290px;*/
-	margin-left: -305px;
-	width: 681px;
+	margin-left: -72%;
+	width: 80%;
 }
 
 .logo-top-container {
 	/*width: 100vw;*/
 	margin-top: 200px;
-	margin-left: 35vw;
+	margin-left: 35%;
+	margin-right: 5%;
 	width: 550px;
 }
 
@@ -240,7 +234,7 @@ a:hover {
 	background-color: var(--white);
 	list-style: none;
 	justify-content: space-around;
-	padding-right: 12vw;
+	padding-right: 16%;
 	position: fixed;
 	margin-top: 25px;
 	padding-top: 5px 0;
@@ -250,13 +244,13 @@ a:hover {
 
 .navbar-colorbug {
 	height: 42.7px;
-	margin-left: 10vw;
+	margin-left: 5%;
 	padding-top: 5px;
 }
 
 .navitem {
 	color: var(--blue);
-	font-size: 24px;
+	font-size: 20px;
 	padding: 10px;
 }
 
@@ -290,14 +284,15 @@ a:hover {
 
 .partners-head {
 	color: white;
-	font-size: 87px;
+	font-size: var(--header-font-size);
 	margin-bottom: 75px;
-	margin-left: 60vw;
-	margin-top: 688px;
+	margin-left: 40%;
+	margin-top: 750px;
+	width:100%;
 }
 
 .partner-row-container {
-	width: 100vw;
+	width: 100%;
 	margin: 20px 0;
 }
 
@@ -310,7 +305,7 @@ a:hover {
 }
 
 .partner-row {
-	width: 65%;
+	width: 85%;
 }
 
 .partner-contact-row {
@@ -318,8 +313,8 @@ a:hover {
 }
 
 .partner-contact-text {
-	font-size: 28px;
-	margin-top: 50px;
+	font-size: 24px;
+	margin-top: 20px;
 }
 
 .photos {
@@ -327,32 +322,34 @@ a:hover {
 	flex-direction: column;
 	justify-content: space-around;
 	margin-top: 50px;
-	width:43vw;
+	margin-left: 10%;
+	width:100%;
 }
 
 .photo-top {
-	width: 12.8vw;
+	width: 70%;
 }
 
 .photo-middle {
 	padding-left: 4vw;
-	width: 27vw;
+	width: 65%;
 }
 
 .photo-bottom {
 	float: right;
-	width: 18.5vw;
+	padding-right: 5%;
+	width: 70%;
 }
 
 .plan-header {
 	/*align-self: center;*/
 	font-family: Access;
-	font-size: 87px;
-	padding-left: 35vw;
-	margin-top: 450px;
+	font-size: var(--header-font-size);
+	/*padding-left: 35vw;*/
+	margin-top: 650px;
 	margin-bottom: -50px;
-	/*text-align: center;*/
-	width: 78vw;
+	text-align: center;
+	width: 100%;
 }
 
 .plan-pad-left {
@@ -366,15 +363,15 @@ a:hover {
 .question-btn {
 	background-color: var(--purple);
 	color: var(--white);
-	font-size: 25px;
+	font-size: 20px;
 	margin-bottom: 50px;
 	margin-top: 50px;
 	padding: 4.6% 7.3% 4.6% 3.6%;
-	width: 27vw;
+	width: 95%;
 }
 
 .plan-day-text {
-	font-size: 36px;
+	font-size: 12px;
 	margin-bottom: 130px;
 }
 
@@ -382,7 +379,7 @@ a:hover {
 	/*padding-bottom: 1vw;*/
 	/*justify-content-self: flex-start;*/
 	color: var(--blue);
-	font-size: 24px;
+	font-size: 18px;
 	right: 0;
 	position: absolute;
 	width:var(--faq-right-adj);
@@ -392,27 +389,27 @@ a:hover {
 
 .plan-right-side {
 	align-self: flex-start;
-	width: 22vw;
+	width: var(--faq-right-adj);
 }
 
 .plan-vert-line {
 	border-left: 2px solid black;
 	position: absolute;
-	height: 1700px;
-	margin-top: 200px;
+	height: 1400px;
+	margin-top: 300px;
 	width: var(--faq-right-adj) !important;
 }
 
 .schedule-item {
 	margin-top: 50px;
-	width: 100vw;
+	width: 100%;
 }
 
 .schedule-item-name {
 	background-color: black;
 	color: white;
 	cursor: pointer;
-	font-size: 30px;
+	font-size: 18px;
 	opacity: 1;
 	padding: 3px 8px 4px 6px;
 }
@@ -424,10 +421,10 @@ a:hover {
 
 .schedule-item-text {
 	color: var(--blue);
-	font-size: 24px;
+	font-size: 16px;
 	padding-left: 2vw;
 	margin-top: -45px;
-	width: 33%;
+	width: 45%;
 	max-width: 600px;
 	transition: opacity 1s;
 }
@@ -440,21 +437,21 @@ a:hover {
 
 .schedule-item-line-open {
 	border-bottom: 2px solid black;
-	margin-right: -200px;
+	margin-right: -100px;
 }
 
 .schedule-item-open {
-	padding-left: 12%;
+	padding-left: 10%;
 }
 
 .schedule-item-collapsed-long {
 	 /*border-bottom:2px solid black;*/
-	 padding-left:36%;
+	 padding-left:20%;
 }
 
 .schedule-item-collapsed-short {
 	 /*border-bottom:2px solid black;*/
-	 padding-left: 52%;
+	 padding-left: 35%;
 }
 
 .schedule-item-marker-collapsed {
@@ -485,17 +482,17 @@ a:hover {
 	background-color: var(--blue);
 	border: 6px solid black;
 	border-radius: 50%;
-	height:187px;
-	left: 98px;
+	height:120px;
+	left: 60px;
 	margin-right: var(--faq-right-adj);
 	position: relative;
-	width:187px;
+	width:120px;
 	z-index: 1;
 }
 
 .schedule-section-text {
 	color: var(--purple);
-	font-size: 36px;
+	font-size: 20px;
 	/*padding-right: 50px;*/
 	padding-top: 50px;
 	width: var(--faq-right-adj);
@@ -513,7 +510,7 @@ a:hover {
 }
 
 .transition-lower-img {
-	height:3002px;
+	height:2700px;
 	position:absolute;
 	top:4136px;
 	width:100vw;
@@ -547,13 +544,13 @@ a:hover {
 /* Slideshow container */
 .slideshow-container {
 	background-color: white;
-	height: 550px;
+	height: 300px;
 	max-width: 1000px;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 200px;
-	width: 66vw;
+	width: 85%;
 }
 
 /* Hide the images by default */
@@ -564,12 +561,13 @@ a:hover {
 
 .slideshow-img {
 	margin-top: 40px;
+	margin-bottom: 20px;
 	width: 52%;
 }
 
 .slideshow-caption-text {
 	color: black;
-	font-size: 36px;
+	font-size: 16px;
 }
 
 /* Next & previous buttons */
@@ -644,15 +642,4 @@ a:hover {
   animation-duration: 1.5s;
 }
 
-/*@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}*/
-
-/*@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}*/
-/*========================================================*/
 }
-
