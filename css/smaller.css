@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-15 18:21:28
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-15 22:28:20
+* @Last Modified time: 2019-09-15 22:34:29
 */
 
 * {
@@ -504,7 +504,7 @@ a:hover {
 }
 
 .transition-lower-img {
-	height:2700px;
+	height:2500px;
 	position:absolute;
 	top:4136px;
 	width:100vw;
