@@ -2,8 +2,23 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-15 18:21:28
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-18 14:18:59
+* @Last Modified time: 2019-09-18 14:35:50
 */
+
+@font-face {
+    font-family: Access;
+    src: url("../static/Font/Access-Playtype.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Access-Bold;
+    src: url("../static/Font/Access-Bold-Playtype.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Access-Italic;
+    src: url("../static/Font/Access-Italic-Playtype.otf") format("opentype");
+}
 
 * {
 	box-sizing: border-box;
@@ -556,7 +571,7 @@ a:hover {
 }
 
 .slideshow-img {
-	margin-top: 40px;
+	margin-top: 100px;
 	margin-bottom: 20px;
 	width: 52%;
 }

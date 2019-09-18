@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-15 21:17:35
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-18 14:22:11
+* @Last Modified time: 2019-09-18 14:36:32
 */
 
 @media(min-width:920px)
@@ -348,7 +348,7 @@ a:hover {
 	font-family: Access;
 	font-size: var(--header-font-size);
 	/*padding-left: 35vw;*/
-	margin-top: 600px;
+	margin-top: 650px;
 	margin-bottom: -50px;
 	text-align: center;
 	width: 100%;
@@ -562,7 +562,7 @@ a:hover {
 }
 
 .slideshow-img {
-	margin-top: 40px;
+	margin-top: 180px;
 	margin-bottom: 20px;
 	width: 52%;
 }

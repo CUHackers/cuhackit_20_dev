@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-08-20 16:13:47
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-18 14:21:08
+* @Last Modified time: 2019-09-18 14:38:29
 */
 
 @media(min-width:1150px)
@@ -401,7 +401,7 @@ a:hover {
 .plan-vert-line {
 	border-left: 2px solid black;
 	position: absolute;
-	height: 1800px;
+	height: 1780px;
 	margin-top: 200px;
 	width: var(--faq-right-adj) !important;
 }
@@ -566,7 +566,7 @@ a:hover {
 }
 
 .slideshow-img {
-	margin-top: 40px;
+	margin-top: 240px;
 	width: 52%;
 }
 
