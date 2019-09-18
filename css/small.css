@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-15 16:43:40
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-15 21:21:07
+* @Last Modified time: 2019-09-18 14:19:28
 */
 
 @media(min-width:720px)
@@ -22,7 +22,7 @@
 
 	--faq-right-adj: 22vw;
 
-	--header-font-size: 64px;
+	--header-font-size: 56px;
 
 	transition: .5s;
 
@@ -60,7 +60,7 @@ a:hover {
 .about-text {
 	color: var(--white);
 	font-family: Access;
-	font-size: 24px;
+	font-size: 16px;
 	margin-top : 20px;
 	padding: 0;
 	width: 42vw;
@@ -270,7 +270,7 @@ a:hover {
 }
 
 .paragraph-pad-top {
-	padding-top: 50px;
+	padding-top: 20px;
 }
 
 .partners {
@@ -282,12 +282,14 @@ a:hover {
 	padding-top: 1px; /*Crucial for no apparent reason*/
 }
 
+.partner-head-container {
+	margin-top: 750px;
+}
+
 .partners-head {
 	color: white;
 	font-size: var(--header-font-size);
-	margin-bottom: 75px;
 	margin-left: 40%;
-	margin-top: 750px;
 	width:100%;
 }
 
@@ -305,7 +307,7 @@ a:hover {
 }
 
 .partner-row {
-	width: 85%;
+	width: 65%;
 }
 
 .partner-contact-row {
@@ -321,24 +323,24 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	margin-top: 50px;
+	margin-top: 0px;
 	margin-left: 10%;
 	width:100%;
 }
 
 .photo-top {
-	width: 70%;
+	width: 50%;
 }
 
 .photo-middle {
 	padding-left: 4vw;
-	width: 65%;
+	width: 75%;
 }
 
 .photo-bottom {
 	float: right;
 	padding-right: 5%;
-	width: 70%;
+	width: 50%;
 }
 
 .plan-header {
@@ -346,9 +348,9 @@ a:hover {
 	font-family: Access;
 	font-size: var(--header-font-size);
 	/*padding-left: 35vw;*/
-	margin-top: 650px;
+	margin-top: 450px;
 	margin-bottom: -50px;
-	text-align: center;
+	/*text-align: center;*/
 	width: 100%;
 }
 
@@ -363,11 +365,11 @@ a:hover {
 .question-btn {
 	background-color: var(--purple);
 	color: var(--white);
-	font-size: 20px;
+	font-size: 16px;
 	margin-bottom: 50px;
-	margin-top: 50px;
-	padding: 4.6% 7.3% 4.6% 3.6%;
-	width: 95%;
+	margin-top: 20px;
+	padding: 10px 15px;
+	/*width: 95%;*/
 }
 
 .plan-day-text {
@@ -510,7 +512,7 @@ a:hover {
 }
 
 .transition-lower-img {
-	height:2700px;
+	height:2500px;
 	position:absolute;
 	top:4136px;
 	width:100vw;
@@ -550,7 +552,7 @@ a:hover {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 200px;
-	width: 85%;
+	width: 75%;
 }
 
 /* Hide the images by default */
@@ -562,12 +564,12 @@ a:hover {
 .slideshow-img {
 	margin-top: 40px;
 	margin-bottom: 20px;
-	width: 52%;
+	width: 45%;
 }
 
 .slideshow-caption-text {
 	color: black;
-	font-size: 16px;
+	font-size: 12px;
 }
 
 /* Next & previous buttons */

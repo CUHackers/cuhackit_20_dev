@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-15 21:17:35
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-15 21:30:48
+* @Last Modified time: 2019-09-18 14:22:11
 */
 
 @media(min-width:920px)
@@ -48,7 +48,7 @@ a:hover {
 	font-family: Access;
 	font-size: var(--header-font-size);
 	padding-left: 7.6vw;
-	margin-top: 950px;
+	margin-top: 900px;
 	text-align: left;
 }
 
@@ -60,7 +60,7 @@ a:hover {
 .about-text {
 	color: var(--white);
 	font-family: Access;
-	font-size: 24px;
+	font-size: 18px;
 	margin-top : 20px;
 	padding: 0;
 	width: 42vw;
@@ -270,7 +270,7 @@ a:hover {
 }
 
 .paragraph-pad-top {
-	padding-top: 50px;
+	padding-top: 10px;
 }
 
 .partners {
@@ -282,12 +282,14 @@ a:hover {
 	padding-top: 1px; /*Crucial for no apparent reason*/
 }
 
+.partner-head-container {
+	margin-top: 650px;
+}
+
 .partners-head {
 	color: white;
 	font-size: var(--header-font-size);
-	margin-bottom: 75px;
-	margin-left: 40%;
-	margin-top: 750px;
+	margin-left: 60%;
 	width:100%;
 }
 
@@ -305,7 +307,7 @@ a:hover {
 }
 
 .partner-row {
-	width: 85%;
+	width: 65%;
 }
 
 .partner-contact-row {
@@ -321,24 +323,24 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	margin-top: 50px;
+	margin-top: 20px;
 	margin-left: 10%;
 	width:100%;
 }
 
 .photo-top {
-	width: 70%;
+	width: 40%;
 }
 
 .photo-middle {
 	padding-left: 4vw;
-	width: 65%;
+	width: 75%;
 }
 
 .photo-bottom {
 	float: right;
 	padding-right: 5%;
-	width: 70%;
+	width: 40%;
 }
 
 .plan-header {
@@ -363,11 +365,11 @@ a:hover {
 .question-btn {
 	background-color: var(--purple);
 	color: var(--white);
-	font-size: 26px;
+	font-size: 18px;
 	margin-bottom: 50px;
-	margin-top: 50px;
-	padding: 4.6% 7.3% 4.6% 3.6%;
-	width: 95%;
+	margin-top: 20px;
+	/*padding: 4.6% 7.3% 4.6% 3.6%;*/
+	/*width: 95%;*/
 }
 
 .plan-day-text {
@@ -544,13 +546,13 @@ a:hover {
 /* Slideshow container */
 .slideshow-container {
 	background-color: white;
-	height: 500px;
+	height: 450px;
 	max-width: 1000px;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 150px;
-	width: 85%;
+	width: 65%;
 }
 
 /* Hide the images by default */

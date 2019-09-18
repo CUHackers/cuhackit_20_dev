@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-15 18:21:28
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-15 22:34:29
+* @Last Modified time: 2019-09-18 14:18:59
 */
 
 * {
@@ -58,7 +58,7 @@ a:hover {
 .about-text {
 	color: var(--white);
 	font-family: Access;
-	font-size: 18px;
+	font-size: 15px;
 	margin-top : 20px;
 	padding: 0;
 	width: 42vw;
@@ -216,7 +216,7 @@ a:hover {
 
 .logo-top-container {
 	/*width: 100vw;*/
-	margin-top: 200px;
+	margin-top: 300px;
 	margin-left: 35%;
 	margin-right: 5%;
 	width: 550px;
@@ -267,7 +267,7 @@ a:hover {
 }
 
 .paragraph-pad-top {
-	padding-top: 50px;
+	padding-top: 10px;
 }
 
 .partners {
@@ -277,12 +277,14 @@ a:hover {
 	padding-top: 1px; /*Crucial for no apparent reason*/
 }
 
+.partner-head-container {
+	margin-top: 750px;
+}
+
 .partners-head {
 	color: white;
 	font-size: var(--header-font-size);
-	margin-bottom: 75px;
 	margin-left: 40%;
-	margin-top: 750px;
 	width:100%;
 }
 
@@ -294,13 +296,13 @@ a:hover {
 .partner-contact-btn {
 	background-color: var(--purple);
 	color: var(--white);
-	font-size: 32px;
+	font-size: 16px;
 	margin-top: 50px;
 	padding: 8px 10px;
 }
 
 .partner-row {
-	width: 85%;
+	width: 65%;
 }
 
 .partner-contact-row {
@@ -308,7 +310,7 @@ a:hover {
 }
 
 .partner-contact-text {
-	font-size: 24px;
+	font-size: 14px;
 	margin-top: 20px;
 }
 
@@ -316,23 +318,22 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	margin-top: 50px;
 	margin-left: 10%;
 	width:100%;
 }
 
 .photo-top {
-	width: 90%;
+	width: 60%;
 }
 
 .photo-middle {
 	padding-left: 4vw;
-	width: 95%;
+	width: 75%;
 }
 
 .photo-bottom {
 	float: right;
-	width: 90%;
+	width: 60%;
 }
 
 .plan-header {
@@ -340,7 +341,7 @@ a:hover {
 	font-family: Access;
 	font-size: var(--header-font-size);
 	/*padding-left: 35vw;*/
-	margin-top: 650px;
+	margin-top: 450px;
 	margin-bottom: -50px;
 	text-align: center;
 	width: 100%;
@@ -357,11 +358,12 @@ a:hover {
 .question-btn {
 	background-color: var(--purple);
 	color: var(--white);
-	font-size: 14px;
+	font-size: 12px;
 	margin-bottom: 50px;
-	margin-top: 50px;
-	padding: 4.6% 7.3% 4.6% 3.6%;
-	width: 95%;
+	margin-top: 20px;
+	padding: 5px 10px;
+	text-align: center;
+	width: 80%;
 }
 
 .plan-day-text {
@@ -389,8 +391,8 @@ a:hover {
 .plan-vert-line {
 	border-left: 2px solid black;
 	position: absolute;
-	height: 1400px;
-	margin-top: 400px;
+	height: 1600px;
+	margin-top: 300px;
 	width: var(--faq-right-adj) !important;
 }
 
@@ -504,7 +506,7 @@ a:hover {
 }
 
 .transition-lower-img {
-	height:2500px;
+	height:2000px;
 	position:absolute;
 	top:4136px;
 	width:100vw;
@@ -538,13 +540,13 @@ a:hover {
 /* Slideshow container */
 .slideshow-container {
 	background-color: white;
-	height: 300px;
+	height: 250px;
 	max-width: 1000px;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 200px;
-	width: 85%;
+	margin-top: 50px;
+	width: 75%;
 }
 
 /* Hide the images by default */
@@ -561,7 +563,7 @@ a:hover {
 
 .slideshow-caption-text {
 	color: black;
-	font-size: 16px;
+	font-size: 12px;
 }
 
 /* Next & previous buttons */
