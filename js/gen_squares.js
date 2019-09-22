@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-0910 14:11:26
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-15 17:47:17
+* @Last Modified time: 2019-09-22 15:33:35
 */
 
 section = document.getElementById('squares-top');
@@ -20,21 +20,21 @@ function generate_squares_bottom()
 {
 	var html = "";
 
-	html += gen_square('w',147, 61, .75, 4163, 1156, 1, false);
-	html += gen_square('w',25, 26, .5, 4238, 1303, 1, false);
-	html += gen_square('w',188, 103, .75, 4224, 1056, 1, false);
-	html += gen_square('w',147, 61, .75, 4163, 1156, 1, false);
-	html += gen_square('w',224, 164, .75, 4256, 964, 1, false);
-	html += gen_square('w',197, 85, .5, 4382, 783, 1, false);
-	html += gen_square('w',63, 63, .25, 4448, 722, 1, false);
-	html += gen_square('w',85, 50, .75, 4422, 558, 1, false);
-	html += gen_square('w',201, 99, .5, 4506, 300, 1, false);
-	html += gen_square('w',133, 92, .75, 4550, 264, 1, false);
-	html += gen_square('w',67, 67, .5, 4656, 256, 1, false);
-	html += gen_square('w',160, 84, .75, 4572, 104, 1, false);
-	html += gen_square('w',108, 108, .75, 4615, 93, 1, false);
-	html += gen_square('w',30, 30, .75, 4768, 122, 1, false);
-	html += gen_square('w',104, 110, .75, 4668, 0, 1, false);
+	html += gen_square_bottom('w',147, 61, .75, 4163, 1156, 1, false);
+	html += gen_square_bottom('w',25, 26, .5, 4238, 1303, 1, false);
+	html += gen_square_bottom('w',188, 103, .75, 4224, 1056, 1, false);
+	html += gen_square_bottom('w',147, 61, .75, 4163, 1156, 1, false);
+	html += gen_square_bottom('w',224, 164, .75, 4256, 964, 1, false);
+	html += gen_square_bottom('w',197, 85, .5, 4382, 783, 1, false);
+	html += gen_square_bottom('w',63, 63, .25, 4448, 722, 1, false);
+	html += gen_square_bottom('w',85, 50, .75, 4422, 558, 1, false);
+	html += gen_square_bottom('w',201, 99, .5, 4506, 300, 1, false);
+	html += gen_square_bottom('w',133, 92, .75, 4550, 264, 1, false);
+	html += gen_square_bottom('w',67, 67, .5, 4656, 256, 1, false);
+	html += gen_square_bottom('w',160, 84, .75, 4572, 104, 1, false);
+	html += gen_square_bottom('w',108, 108, .75, 4615, 93, 1, false);
+	html += gen_square_bottom('w',30, 30, .75, 4768, 122, 1, false);
+	html += gen_square_bottom('w',104, 110, .75, 4668, 0, 1, false);
 
 	return html;
 }
@@ -170,3 +170,41 @@ function gen_square(c, w, h, o, t, l, z, b)
 			z-index:${z}">
 			</div>`;
 }
+
+function gen_square_bottom(c, w, h, o, t, l, z, b)
+{
+	var color = (c==='r' ? "#e70000" : c==='b' ? "#0016ff" : c==='p' ? "#711ed6": "#ffffff");
+
+	t -= 1700;
+
+	return `<div
+	class="square"
+	style="
+		background-color: ${color};
+		width:${w/1366 * 100}%;
+		height:${h}px;
+		opacity:${o};
+		top:${t}px;
+		left:${l/1366 * 100}%;
+		z-index:${z}">
+		</div>`;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

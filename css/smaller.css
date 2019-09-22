@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-15 18:21:28
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-18 14:35:50
+* @Last Modified time: 2019-09-22 15:37:21
 */
 
 @font-face {
@@ -61,7 +61,7 @@ a:hover {
 	font-family: Access;
 	font-size: var(--header-font-size);
 	padding-left: 7.6vw;
-	margin-top: 1050px;
+	/*margin-top: 1050px;*/
 	text-align: left;
 }
 
@@ -102,6 +102,10 @@ a:hover {
 .app-link-2 {
 	background-color: var(--blue);
 	color: var(--white);
+}
+
+.background-black {
+	background-color: black;
 }
 
 .block {
@@ -185,7 +189,7 @@ a:hover {
 }
 
 .footer-margin-top {
-	margin-top: 150px;
+	/*margin-top: 150px;*/
 }
 
 .flex-align-center {
@@ -238,8 +242,8 @@ a:hover {
 }
 
 .move-plan-up {
-	margin-top: -200px;
-	padding-bottom: 200px;
+	/*margin-top: -200px;*/
+	/*padding-bottom: 200px;*/
 }
 
 .navbar {
@@ -288,12 +292,12 @@ a:hover {
 .partners {
 	color: white;
 	height: auto;
-	margin-top: 100px;
-	padding-top: 1px; /*Crucial for no apparent reason*/
+	/*margin-top: 100px;*/
+	/*padding-top: 1px; Crucial for no apparent reason*/
 }
 
 .partner-head-container {
-	margin-top: 750px;
+	/*margin-top: 750px;*/
 }
 
 .partners-head {
@@ -312,7 +316,7 @@ a:hover {
 	background-color: var(--purple);
 	color: var(--white);
 	font-size: 16px;
-	margin-top: 50px;
+	margin-top: 25px;
 	padding: 8px 10px;
 }
 
@@ -326,7 +330,7 @@ a:hover {
 
 .partner-contact-text {
 	font-size: 14px;
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
 .photos {
@@ -356,8 +360,8 @@ a:hover {
 	font-family: Access;
 	font-size: var(--header-font-size);
 	/*padding-left: 35vw;*/
-	margin-top: 450px;
-	margin-bottom: -50px;
+	/*margin-top: 450px;*/
+	/*margin-bottom: -50px;*/
 	text-align: center;
 	width: 100%;
 }
@@ -407,7 +411,7 @@ a:hover {
 	border-left: 2px solid black;
 	position: absolute;
 	height: 1600px;
-	margin-top: 300px;
+	/*margin-top: 300px;*/
 	width: var(--faq-right-adj) !important;
 }
 
@@ -509,6 +513,19 @@ a:hover {
 	width: var(--faq-right-adj);
 }
 
+.section {
+	border: 2px solid blue;
+	min-height: 90vh;
+}
+
+.transition-upper-top-img {
+	margin-bottom: -5px;
+}
+
+.transition-lower-top-img {
+	margin-bottom: -5px;
+}
+
 .transition-upper {
 	/*background-image : url("../static/transition_upper.svg");
 	background-repeat:no-repeat;
@@ -521,18 +538,18 @@ a:hover {
 }
 
 .transition-lower-img {
-	height:2000px;
+	/*height:2000px;*/
 	position:absolute;
-	top:4136px;
+	/*top:4136px;*/
 	width:100vw;
 	z-index:-100;	
 }
 
 .transition-upper-img {
-	height:1900px;
+	/*height:1900px;*/
 	position:absolute;
 	max-width: 1920px;
-	top:843px;
+	/*top:843px;*/
 	width:100%;
 	z-index:-100;
 }
