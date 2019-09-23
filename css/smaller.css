@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-15 18:21:28
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-18 14:35:50
+* @Last Modified time: 2019-09-22 22:05:55
 */
 
 @font-face {
@@ -61,13 +61,17 @@ a:hover {
 	font-family: Access;
 	font-size: var(--header-font-size);
 	padding-left: 7.6vw;
-	margin-top: 1050px;
+	/*margin-top: 1050px;*/
 	text-align: left;
 }
 
 .about-left-col {
 	display: flex;
 	flex-direction: column;
+}
+
+.about-section {
+	/*margin-bottom: -20px;*/
 }
 
 .about-text {
@@ -102,6 +106,10 @@ a:hover {
 .app-link-2 {
 	background-color: var(--blue);
 	color: var(--white);
+}
+
+.background-black {
+	background-color: black;
 }
 
 .block {
@@ -185,7 +193,7 @@ a:hover {
 }
 
 .footer-margin-top {
-	margin-top: 150px;
+	/*margin-top: 150px;*/
 }
 
 .flex-align-center {
@@ -207,6 +215,11 @@ a:hover {
 
 .footer-blue {
 	background-color: var(--blue);
+}
+
+.footer-section {
+	padding-top: 100px;
+	padding-bottom: 50px;
 }
 
 .grid-img {
@@ -237,8 +250,12 @@ a:hover {
 	width: 550px;
 }
 
-.move-plan-up {
-	margin-top: -200px;
+.home-section {
+	margin-bottom: 250px;
+}
+
+.plan-section {
+	margin-top: -10px;
 	padding-bottom: 200px;
 }
 
@@ -288,12 +305,12 @@ a:hover {
 .partners {
 	color: white;
 	height: auto;
-	margin-top: 100px;
-	padding-top: 1px; /*Crucial for no apparent reason*/
+	/*margin-top: 100px;*/
+	/*padding-top: 1px; Crucial for no apparent reason*/
 }
 
 .partner-head-container {
-	margin-top: 750px;
+	/*margin-top: 750px;*/
 }
 
 .partners-head {
@@ -312,7 +329,7 @@ a:hover {
 	background-color: var(--purple);
 	color: var(--white);
 	font-size: 16px;
-	margin-top: 50px;
+	margin-top: 25px;
 	padding: 8px 10px;
 }
 
@@ -326,7 +343,7 @@ a:hover {
 
 .partner-contact-text {
 	font-size: 14px;
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
 .photos {
@@ -356,8 +373,8 @@ a:hover {
 	font-family: Access;
 	font-size: var(--header-font-size);
 	/*padding-left: 35vw;*/
-	margin-top: 450px;
-	margin-bottom: -50px;
+	/*margin-top: 450px;*/
+	/*margin-bottom: -50px;*/
 	text-align: center;
 	width: 100%;
 }
@@ -375,7 +392,7 @@ a:hover {
 	color: var(--white);
 	font-size: 12px;
 	margin-bottom: 50px;
-	margin-top: 20px;
+	margin-top: 40px;
 	padding: 5px 10px;
 	text-align: center;
 	width: 80%;
@@ -406,8 +423,8 @@ a:hover {
 .plan-vert-line {
 	border-left: 2px solid black;
 	position: absolute;
-	height: 1600px;
-	margin-top: 300px;
+	height: 1400px;
+	margin-top: -150px;
 	width: var(--faq-right-adj) !important;
 }
 
@@ -509,6 +526,23 @@ a:hover {
 	width: var(--faq-right-adj);
 }
 
+.section {
+	min-height: 90vh;
+}
+
+.transition-upper-top-img {
+	/*border: 2px solid blue;*/
+	height: 543px;
+	margin-bottom: -5px;
+	width:100%;
+}
+
+.transition-lower-top-img {
+	margin-bottom: -5px;
+	height: 430px;
+	width: 100%;
+}
+
 .transition-upper {
 	/*background-image : url("../static/transition_upper.svg");
 	background-repeat:no-repeat;
@@ -521,18 +555,18 @@ a:hover {
 }
 
 .transition-lower-img {
-	height:2000px;
+	/*height:2000px;*/
 	position:absolute;
-	top:4136px;
+	/*top:4136px;*/
 	width:100vw;
 	z-index:-100;	
 }
 
 .transition-upper-img {
-	height:1900px;
+	/*height:1900px;*/
 	position:absolute;
 	max-width: 1920px;
-	top:843px;
+	/*top:843px;*/
 	width:100%;
 	z-index:-100;
 }
@@ -560,7 +594,7 @@ a:hover {
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 50px;
+	margin-top: 150px;
 	width: 75%;
 }
 

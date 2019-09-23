@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-15 16:43:40
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-18 14:36:08
+* @Last Modified time: 2019-09-22 20:54:58
 */
 
 @media(min-width:720px)
@@ -48,7 +48,7 @@ a:hover {
 	font-family: Access;
 	font-size: var(--header-font-size);
 	padding-left: 7.6vw;
-	margin-top: 950px;
+	/*margin-top: 950px;*/
 	text-align: left;
 }
 
@@ -225,8 +225,8 @@ a:hover {
 	width: 550px;
 }
 
-.move-plan-up {
-	margin-top: -200px;
+.plan-section {
+	margin-top: -400px;
 	padding-bottom: 200px;
 }
 
@@ -349,9 +349,10 @@ a:hover {
 	font-size: var(--header-font-size);
 	/*padding-left: 35vw;*/
 	margin-top: 450px;
-	margin-bottom: -50px;
+	margin-bottom: 50px;
+	max-width: 1920px;
 	/*text-align: center;*/
-	width: 100%;
+	width: 100vw;
 }
 
 .plan-pad-left {
@@ -367,7 +368,7 @@ a:hover {
 	color: var(--white);
 	font-size: 16px;
 	margin-bottom: 50px;
-	margin-top: 20px;
+	margin-top: 40px;
 	padding: 10px 15px;
 	/*width: 95%;*/
 }
@@ -397,8 +398,8 @@ a:hover {
 .plan-vert-line {
 	border-left: 2px solid black;
 	position: absolute;
-	height: 1400px;
-	margin-top: 300px;
+	height: 1600px;
+	margin-top: 100px;
 	width: var(--faq-right-adj) !important;
 }
 
@@ -564,7 +565,7 @@ a:hover {
 .slideshow-img {
 	margin-top: 120px;
 	margin-bottom: 20px;
-	width: 45%;
+	width: 85%;
 }
 
 .slideshow-caption-text {

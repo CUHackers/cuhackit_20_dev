@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-08-20 16:13:47
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-18 14:38:29
+* @Last Modified time: 2019-09-22 20:49:20
 */
 
 @media(min-width:1150px)
@@ -46,7 +46,7 @@ a:hover {
 	font-family: Access;
 	font-size: 87px;
 	padding-left: 7.6vw;
-	margin-top: 800px;
+	/*margin-top: 800px;*/
 	text-align: left;
 }
 
@@ -180,7 +180,7 @@ a:hover {
 }
 
 .footer-margin-top {
-	margin-top: 150px;
+	/*margin-top: 150px;*/
 }
 
 .flex-align-center {
@@ -226,13 +226,13 @@ a:hover {
 
 .logo-top-container {
 	/*width: 100vw;*/
-	margin-top: 200px;
+	/*margin-top: 200px;*/
 	margin-left: 35vw;
 	width: 550px;
 }
 
 .move-plan-up {
-	margin-top: -200px;
+	/*margin-top: -200px;*/
 	padding-bottom: 200px;
 }
 
@@ -284,12 +284,12 @@ a:hover {
 	background-repeat:no-repeat;
 	background-size: cover;*/
 	height: auto; /*219vw;*/
-	margin-top: 100px;
+	/*margin-top: 100px;*/
 	padding-top: 1px; /*Crucial for no apparent reason*/
 }
 
 .partner-head-container {
-	margin-top: 450px;
+	/*margin-top: 450px;*/
 }
 
 .partners-head {
@@ -308,7 +308,7 @@ a:hover {
 	background-color: var(--purple);
 	color: var(--white);
 	font-size: 32px;
-	margin-top: 50px;
+	margin-top: 20px;
 	padding: 8px 10px;
 }
 
@@ -322,7 +322,7 @@ a:hover {
 
 .partner-contact-text {
 	font-size: 28px;
-	margin-top: 50px;
+	margin-top: 20px;
 }
 
 .photos {
@@ -352,8 +352,8 @@ a:hover {
 	font-family: Access;
 	font-size: 87px;
 	padding-left: 35vw;
-	margin-top: 450px;
-	margin-bottom: -50px;
+	/*margin-top: 450px;*/
+	/*margin-bottom: -50px;*/
 	/*text-align: center;*/
 	width: 78vw;
 }
@@ -401,8 +401,8 @@ a:hover {
 .plan-vert-line {
 	border-left: 2px solid black;
 	position: absolute;
-	height: 1780px;
-	margin-top: 200px;
+	height: 2200px;
+	margin-top: -100px;
 	width: var(--faq-right-adj) !important;
 }
 
@@ -509,25 +509,25 @@ a:hover {
 	background-repeat:no-repeat;
 	background-size: cover;*/
 	color : white;
-	height : 1900px; /*Makes box follow size of background transition**/
+	/*height : 1900px; Makes box follow size of background transition**/
 	margin : 0;
 	max-width: 1920px;
 	padding : 0;
 }
 
 .transition-lower-img {
-	height:3502px;
+	/*height:3502px;*/
 	position:absolute;
-	top:4136px;
+	/*top:4136px;*/
 	width:100vw;
 	z-index:-100;	
 }
 
 .transition-upper-img {
-	height:1900px;
-	position:absolute;
+	/*height:1900px;*/
+	/*position:absolute;*/
 	max-width: 1920px;
-	top:843px;
+	/*top:843px;*/
 	width:100%;
 	z-index:-100;
 }
@@ -550,12 +550,12 @@ a:hover {
 /* Slideshow container */
 .slideshow-container {
 	background-color: white;
-	height: 550px;
+	/*height: 550px;*/
 	max-width: 1000px;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 	width: 66vw;
 }
 
@@ -566,8 +566,8 @@ a:hover {
 }
 
 .slideshow-img {
-	margin-top: 240px;
-	width: 52%;
+	/*margin-top: 240px;*/
+	width: 85%;
 }
 
 .slideshow-caption-text {
