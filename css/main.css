@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-08-20 16:13:47
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-22 15:14:22
+* @Last Modified time: 2019-09-22 20:49:20
 */
 
 @media(min-width:1150px)
@@ -308,7 +308,7 @@ a:hover {
 	background-color: var(--purple);
 	color: var(--white);
 	font-size: 32px;
-	margin-top: 50px;
+	margin-top: 20px;
 	padding: 8px 10px;
 }
 
@@ -322,7 +322,7 @@ a:hover {
 
 .partner-contact-text {
 	font-size: 28px;
-	margin-top: 50px;
+	margin-top: 20px;
 }
 
 .photos {
@@ -401,8 +401,8 @@ a:hover {
 .plan-vert-line {
 	border-left: 2px solid black;
 	position: absolute;
-	height: 1780px;
-	/*margin-top: 200px;*/
+	height: 2200px;
+	margin-top: -100px;
 	width: var(--faq-right-adj) !important;
 }
 
@@ -567,7 +567,7 @@ a:hover {
 
 .slideshow-img {
 	/*margin-top: 240px;*/
-	width: 52%;
+	width: 85%;
 }
 
 .slideshow-caption-text {

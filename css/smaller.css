@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-15 18:21:28
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-22 15:37:21
+* @Last Modified time: 2019-09-22 22:05:55
 */
 
 @font-face {
@@ -68,6 +68,10 @@ a:hover {
 .about-left-col {
 	display: flex;
 	flex-direction: column;
+}
+
+.about-section {
+	/*margin-bottom: -20px;*/
 }
 
 .about-text {
@@ -213,6 +217,11 @@ a:hover {
 	background-color: var(--blue);
 }
 
+.footer-section {
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
 .grid-img {
 	width: 22%;
 	max-width: 12%;
@@ -241,9 +250,13 @@ a:hover {
 	width: 550px;
 }
 
-.move-plan-up {
-	/*margin-top: -200px;*/
-	/*padding-bottom: 200px;*/
+.home-section {
+	margin-bottom: 250px;
+}
+
+.plan-section {
+	margin-top: -10px;
+	padding-bottom: 200px;
 }
 
 .navbar {
@@ -379,7 +392,7 @@ a:hover {
 	color: var(--white);
 	font-size: 12px;
 	margin-bottom: 50px;
-	margin-top: 20px;
+	margin-top: 40px;
 	padding: 5px 10px;
 	text-align: center;
 	width: 80%;
@@ -410,8 +423,8 @@ a:hover {
 .plan-vert-line {
 	border-left: 2px solid black;
 	position: absolute;
-	height: 1600px;
-	/*margin-top: 300px;*/
+	height: 1400px;
+	margin-top: -150px;
 	width: var(--faq-right-adj) !important;
 }
 
@@ -514,16 +527,20 @@ a:hover {
 }
 
 .section {
-	border: 2px solid blue;
 	min-height: 90vh;
 }
 
 .transition-upper-top-img {
+	/*border: 2px solid blue;*/
+	height: 543px;
 	margin-bottom: -5px;
+	width:100%;
 }
 
 .transition-lower-top-img {
 	margin-bottom: -5px;
+	height: 430px;
+	width: 100%;
 }
 
 .transition-upper {
@@ -577,7 +594,7 @@ a:hover {
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 50px;
+	margin-top: 150px;
 	width: 75%;
 }
 

@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-15 21:17:35
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-22 14:58:20
+* @Last Modified time: 2019-09-22 20:55:16
 */
 
 @media(min-width:920px)
@@ -225,8 +225,8 @@ a:hover {
 	width: 550px;
 }
 
-.move-plan-up {
-	margin-top: -200px;
+.plan-section {
+	margin-top: -500px;
 	padding-bottom: 200px;
 }
 
@@ -348,10 +348,10 @@ a:hover {
 	font-family: Access;
 	font-size: var(--header-font-size);
 	/*padding-left: 35vw;*/
-	margin-top: 650px;
-	margin-bottom: -50px;
+	margin-top: 550px;
+	margin-bottom: 50px;
 	text-align: center;
-	width: 100%;
+	width: 100vw;
 }
 
 .plan-pad-left {
@@ -367,7 +367,7 @@ a:hover {
 	color: var(--white);
 	font-size: 18px;
 	margin-bottom: 50px;
-	margin-top: 20px;
+	margin-top: 40px;
 	/*padding: 4.6% 7.3% 4.6% 3.6%;*/
 	/*width: 95%;*/
 }
@@ -564,7 +564,7 @@ a:hover {
 .slideshow-img {
 	margin-top: 180px;
 	margin-bottom: 20px;
-	width: 52%;
+	width: 85%;
 }
 
 .slideshow-caption-text {
