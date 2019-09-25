@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-15 21:17:35
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-22 20:55:16
+* @Last Modified time: 2019-09-25 09:45:33
 */
 
 @media(min-width:920px)
@@ -540,6 +540,34 @@ a:hover {
 	width : 32.5%;
 }
 
+.workshop-btn {
+	/*border: 2px solid green;*/
+	background-color: var(--purple);
+	color: var(--white);
+	font-size: 22px;
+	padding: 5px 10px;	
+	width: 50vw;
+}
+
+.workshop-text {
+	/*border: 2px solid green;*/
+	color: black;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+
+.workshop-btn-container {
+	/*border: 2px solid blue;*/
+	margin-left: 15%;
+	width: 300px;
+}
+
+.workshop-btn-row {
+	/*border: 2px solid orange;*/
+	margin-top: 50px;
+	width: 100%;
+}
 
 
 /*========================================================
