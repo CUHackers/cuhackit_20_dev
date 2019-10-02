@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-15 16:43:40
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-25 09:45:27
+* @Last Modified time: 2019-10-01 20:13:29
 */
 
 @media(min-width:720px)
@@ -22,7 +22,8 @@
 
 	--faq-right-adj: 22vw;
 
-	--header-font-size: 56px;
+	--header-font-size: 42px;
+	--text-font-size: 16px;
 
 	transition: .5s;
 
@@ -60,8 +61,8 @@ a:hover {
 .about-text {
 	color: var(--white);
 	font-family: Access;
-	font-size: 16px;
-	margin-top : 20px;
+	font-size: var(--text-font-size);
+	margin-top : 10px;
 	padding: 0;
 	width: 42vw;
 }
@@ -89,7 +90,7 @@ a:hover {
 .app-link-2 {
 	background-color: var(--blue);
 	color: var(--white);
-	margin-right: 30px;
+	/*margin-right: 30px;*/
 }
 
 .block {
@@ -219,7 +220,7 @@ a:hover {
 
 .logo-top-container {
 	/*width: 100vw;*/
-	margin-top: 200px;
+	margin-top: 220px;
 	margin-left: 35%;
 	margin-right: 5%;
 	width: 550px;
@@ -236,8 +237,8 @@ a:hover {
 	justify-content: space-around;
 	padding-right: 16%;
 	position: fixed;
-	margin-top: 25px;
-	padding-top: 5px 0;
+	/*margin-top: 25px;*/
+	/*padding-top: 5px 0;*/
 	width: 100vw;
 	z-index: 1000;
 }
@@ -278,7 +279,7 @@ a:hover {
 	background-repeat:no-repeat;
 	background-size: cover;*/
 	height: auto; /*219vw;*/
-	margin-top: 100px;
+	margin-top: -100px;
 	padding-top: 1px; /*Crucial for no apparent reason*/
 }
 
@@ -301,7 +302,7 @@ a:hover {
 .partner-contact-btn {
 	background-color: var(--purple);
 	color: var(--white);
-	font-size: 32px;
+	font-size: 24px;
 	margin-top: 50px;
 	padding: 8px 10px;
 }
@@ -580,7 +581,7 @@ a:hover {
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 200px;
+	margin-top: 100px;
 	width: 75%;
 }
 
@@ -591,8 +592,8 @@ a:hover {
 }
 
 .slideshow-img {
-	margin-top: 120px;
-	margin-bottom: 20px;
+	margin-top: 90px;
+	/*margin-bottom: 50px;*/
 	width: 85%;
 }
 

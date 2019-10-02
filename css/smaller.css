@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-15 18:21:28
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-25 09:45:10
+* @Last Modified time: 2019-10-01 20:03:15
 */
 
 @font-face {
@@ -35,7 +35,8 @@
 
 	--faq-right-adj: 22vw;
 
-	--header-font-size: 64px;
+	--header-font-size: 32px;
+	--text-font-size: 14px;
 
 	transition: .5s;
 
@@ -77,8 +78,8 @@ a:hover {
 .about-text {
 	color: var(--white);
 	font-family: Access;
-	font-size: 15px;
-	margin-top : 20px;
+	font-size: var(--text-font-size);
+	margin-top : 10px;
 	padding: 0;
 	width: 42vw;
 }
@@ -106,6 +107,7 @@ a:hover {
 .app-link-2 {
 	background-color: var(--blue);
 	color: var(--white);
+	margin-left: 20px;
 }
 
 .background-black {
@@ -244,7 +246,7 @@ a:hover {
 
 .logo-top-container {
 	/*width: 100vw;*/
-	margin-top: 300px;
+	margin-top: 225px;
 	margin-left: 35%;
 	margin-right: 5%;
 	width: 550px;
@@ -255,7 +257,7 @@ a:hover {
 }
 
 .plan-section {
-	margin-top: -10px;
+	margin-top: 100px;
 	padding-bottom: 200px;
 }
 
@@ -265,8 +267,8 @@ a:hover {
 	justify-content: space-around;
 	padding-right: 16%;
 	position: fixed;
-	margin-top: 25px;
-	padding-top: 5px 0;
+	/*margin-top: 25px;*/
+	padding-top: 8px;
 	width: 100vw;
 	z-index: 1000;
 }
@@ -279,7 +281,7 @@ a:hover {
 
 .navitem {
 	color: var(--blue);
-	font-size: 12px;
+	font-size: 14px;
 	padding: 10px;
 }
 
@@ -317,6 +319,7 @@ a:hover {
 	color: white;
 	font-size: var(--header-font-size);
 	margin-left: 40%;
+	padding-top: 120px;
 	width:100%;
 }
 
@@ -423,8 +426,8 @@ a:hover {
 .plan-vert-line {
 	border-left: 2px solid black;
 	position: absolute;
-	height: 1400px;
-	margin-top: -150px;
+	height: 1500px;
+	margin-top: -250px;
 	width: var(--faq-right-adj) !important;
 }
 
@@ -527,7 +530,7 @@ a:hover {
 }
 
 .section {
-	min-height: 90vh;
+	min-height: 75vh;
 }
 
 .transition-upper-top-img {
@@ -619,7 +622,7 @@ a:hover {
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 150px;
+	margin-top: 75px;
 	width: 75%;
 }
 

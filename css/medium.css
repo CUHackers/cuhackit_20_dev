@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-15 21:17:35
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-25 09:45:33
+* @Last Modified time: 2019-10-01 20:10:49
 */
 
 @media(min-width:920px)
@@ -22,7 +22,8 @@
 
 	--faq-right-adj: 22vw;
 
-	--header-font-size: 64px;
+	--header-font-size: 48px;
+	--text-font-size: 18px;
 
 	transition: .5s;
 
@@ -60,7 +61,7 @@ a:hover {
 .about-text {
 	color: var(--white);
 	font-family: Access;
-	font-size: 18px;
+	font-size: var(--text-font-size);
 	margin-top : 20px;
 	padding: 0;
 	width: 42vw;
@@ -236,8 +237,8 @@ a:hover {
 	justify-content: space-around;
 	padding-right: 16%;
 	position: fixed;
-	margin-top: 25px;
-	padding-top: 5px 0;
+	/*margin-top: 25px;*/
+	/*padding-top: 5px 0;*/
 	width: 100vw;
 	z-index: 1000;
 }
@@ -329,18 +330,18 @@ a:hover {
 }
 
 .photo-top {
-	width: 40%;
+	width: 35%;
 }
 
 .photo-middle {
 	padding-left: 4vw;
-	width: 75%;
+	width: 65%;
 }
 
 .photo-bottom {
 	float: right;
-	padding-right: 5%;
-	width: 40%;
+	padding-right: 7%;
+	width: 35%;
 }
 
 .plan-header {
@@ -411,7 +412,7 @@ a:hover {
 	background-color: black;
 	color: white;
 	cursor: pointer;
-	font-size: 28px;
+	font-size: 22px;
 	opacity: 1;
 	padding: 3px 8px 4px 6px;
 }
@@ -574,12 +575,12 @@ a:hover {
 /* Slideshow container */
 .slideshow-container {
 	background-color: white;
-	height: 450px;
+	height: 350px;
 	max-width: 1000px;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 150px;
+	margin-top: 100px;
 	width: 65%;
 }
 
@@ -590,7 +591,7 @@ a:hover {
 }
 
 .slideshow-img {
-	margin-top: 180px;
+	margin-top: 140px;
 	margin-bottom: 20px;
 	width: 85%;
 }

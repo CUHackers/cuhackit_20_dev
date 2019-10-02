@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-10 13:34:24
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-18 13:35:52
+* @Last Modified time: 2019-10-01 19:35:53
 */
 window.smoothScroll = function(target) {
     var scrollContainer = target;
@@ -15,7 +15,7 @@ window.smoothScroll = function(target) {
     var targetY = 0;
     do { //find the top of target relatively to the container
         if (target == scrollContainer) break;
-        targetY += target.offsetTop - 35;
+        targetY += target.offsetTop - 50;
     } while (target = target.offsetParent);
 
     scroll = function(c, a, b, i) {

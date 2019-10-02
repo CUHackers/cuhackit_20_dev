@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-08-20 16:13:47
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-22 20:41:41
+* @Last Modified time: 2019-10-01 20:17:53
 */
 
 @media(min-width:1400px)
@@ -21,6 +21,9 @@
 	--about-width-side: 35vw;
 
 	--faq-right-adj: 22vw;
+
+	--header-font-size: 64px;
+	--text-font-size: 22px;
 
 	transition: .5s;
 
@@ -44,7 +47,7 @@ a:hover {
 .about-head {
 	color: var(--white);
 	font-family: Access;
-	font-size: 87px;
+	font-size: var(--header-font-size);
 	padding-left: 7.6vw;
 	/*margin-top: 800px;*/
 	text-align: left;
@@ -58,7 +61,7 @@ a:hover {
 .about-text {
 	color: var(--white);
 	font-family: Access;
-	font-size: 22px;
+	font-size: var(--text-font-size);
 	margin-top : 20px;
 	padding: 0;
 	width: 42vw;
@@ -242,8 +245,6 @@ a:hover {
 	justify-content: space-around;
 	padding-right: 12vw;
 	position: fixed;
-	margin-top: 25px;
-	padding-top: 5px 0;
 	width: 100vw;
 	z-index: 1000;
 }
@@ -329,28 +330,31 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	margin-top: 20px;
+	margin-top: 0;
 	width:43vw;
 }
 
 .photo-top {
+	margin-top: 20px;
 	width: 30%;
 }
 
 .photo-middle {
+	margin-top: 20px;
 	padding-left: 4vw;
-	width: 55%;
+	width: 45%;
 }
 
 .photo-bottom {
 	float: right;
+	margin-top: 20px;
 	width: 40%;
 }
 
 .plan-header {
 	/*align-self: center;*/
 	font-family: Access;
-	font-size: 87px;
+	font-size: var(--header-font-size);
 	padding-left: 35vw;
 	/*margin-top: 450px;*/
 	/*margin-bottom: -50px;*/
