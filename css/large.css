@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-08-20 16:13:47
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-10-01 20:17:53
+* @Last Modified time: 2019-10-06 14:28:02
 */
 
 @media(min-width:1400px)
@@ -22,8 +22,8 @@
 
 	--faq-right-adj: 22vw;
 
-	--header-font-size: 64px;
-	--text-font-size: 22px;
+	--font-size-header: 64px;
+	--font-size-text: 22px;
 
 	transition: .5s;
 
@@ -47,7 +47,7 @@ a:hover {
 .about-head {
 	color: var(--white);
 	font-family: Access;
-	font-size: var(--header-font-size);
+	font-size: var(--font-size-header);
 	padding-left: 7.6vw;
 	/*margin-top: 800px;*/
 	text-align: left;
@@ -61,7 +61,7 @@ a:hover {
 .about-text {
 	color: var(--white);
 	font-family: Access;
-	font-size: var(--text-font-size);
+	font-size: var(--font-size-text);
 	margin-top : 20px;
 	padding: 0;
 	width: 42vw;
@@ -129,20 +129,16 @@ a:hover {
 	font-size: 28px;
 }
 
-.helloworld {
-	margin-top: 10px;
-}
-
-.location {
-	margin-top: 20px;
-}
-
-.date {
-
-}
-
 .sub-banner {
-	/*margin-left: 46vw;*/
+	font-size: var(--font-size-subhead);
+}
+
+.sub-banner-location {
+	font-size: var(--font-size-text);
+}
+
+.sub-banner-date {
+	font-size: var(--font-size-text);
 }
 
 .flex {
@@ -239,37 +235,6 @@ a:hover {
 	padding-bottom: 200px;
 }
 
-.navbar {
-	background-color: var(--white);
-	list-style: none;
-	justify-content: space-around;
-	padding-right: 12vw;
-	position: fixed;
-	width: 100vw;
-	z-index: 1000;
-}
-
-.navbar-colorbug {
-	height: 42.7px;
-	margin-left: 10vw;
-	padding-top: 5px;
-}
-
-.navitem {
-	color: var(--blue);
-	font-size: 24px;
-	padding: 10px;
-}
-
-.navitem:visited {
-	color: var(--blue);
-}
-
-.navitem:hover {
-	color: var(--white);
-	background-color: var(--purple);
-}
-
 .none {
 	display: none;
 	opacity: 0;
@@ -295,7 +260,7 @@ a:hover {
 
 .partners-head {
 	color: white;
-	font-size: var(--header-font-size);
+	font-size: var(--font-size-header);
 	margin-left: 70%;
 	width:100%;
 }
@@ -308,7 +273,7 @@ a:hover {
 .partner-contact-btn {
 	background-color: var(--purple);
 	color: var(--white);
-	font-size: 32px;
+	font-size: var(--font-size-subhead);
 	margin-top: 50px;
 	padding: 8px 10px;
 }
@@ -322,7 +287,7 @@ a:hover {
 }
 
 .partner-contact-text {
-	font-size: 28px;
+	font-size: var(--font-size-subhead);
 	margin-top: 50px;
 }
 
@@ -354,7 +319,7 @@ a:hover {
 .plan-header {
 	/*align-self: center;*/
 	font-family: Access;
-	font-size: var(--header-font-size);
+	font-size: var(--font-size-header);
 	padding-left: 35vw;
 	/*margin-top: 450px;*/
 	/*margin-bottom: -50px;*/
@@ -411,6 +376,7 @@ a:hover {
 }
 
 .schedule-item {
+	font-size: var(--font-size-subhead);
 	margin-top: 50px;
 	width: 100vw;
 }
@@ -419,7 +385,7 @@ a:hover {
 	background-color: black;
 	color: white;
 	cursor: pointer;
-	font-size: 30px;
+	font-size: var(--font-size-subhead);
 	opacity: 1;
 	padding: 3px 8px 4px 6px;
 }
@@ -431,7 +397,7 @@ a:hover {
 
 .schedule-item-text {
 	color: var(--blue);
-	font-size: 24px;
+	font-size: var(--font-size-text);
 	padding-left: 2vw;
 	margin-top: -45px;
 	width: 33%;
@@ -492,11 +458,11 @@ a:hover {
 	background-color: var(--blue);
 	border: 6px solid black;
 	border-radius: 50%;
-	height:187px;
+	height:140px;
 	left: 98px;
 	margin-right: var(--faq-right-adj);
 	position: relative;
-	width:187px;
+	width:140px;
 	z-index: 1;
 }
 

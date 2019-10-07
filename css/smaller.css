@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-15 18:21:28
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-10-01 20:03:15
+* @Last Modified time: 2019-10-06 14:30:02
 */
 
 @font-face {
@@ -35,8 +35,9 @@
 
 	--faq-right-adj: 22vw;
 
-	--header-font-size: 32px;
-	--text-font-size: 14px;
+	--font-size-header: 32px;
+	--font-size-subhead: 14px;
+	--font-size-text: 12px;
 
 	transition: .5s;
 
@@ -60,7 +61,7 @@ a:hover {
 .about-head {
 	color: var(--white);
 	font-family: Access;
-	font-size: var(--header-font-size);
+	font-size: var(--font-size-header);
 	padding-left: 7.6vw;
 	/*margin-top: 1050px;*/
 	text-align: left;
@@ -78,7 +79,7 @@ a:hover {
 .about-text {
 	color: var(--white);
 	font-family: Access;
-	font-size: var(--text-font-size);
+	font-size: var(--font-size-text);
 	margin-top : 10px;
 	padding: 0;
 	width: 42vw;
@@ -89,26 +90,6 @@ a:hover {
 	width:55vw;
 }
 
-.app-link {
-	color: white;
-	font-size: 16px;
-	padding: 3px 10px 5px 8px;
-}
-
-.app-links {
-	margin-top: 25px;
-}
-
-.app-link-1 {
-	background-color: var(--purple);
-	color: var(--white);
-}
-
-.app-link-2 {
-	background-color: var(--blue);
-	color: var(--white);
-	margin-left: 20px;
-}
 
 .background-black {
 	background-color: black;
@@ -139,22 +120,33 @@ a:hover {
 }
 
 
-.helloworld {
-	font-size:18px;
-	margin-top: 10px;
-}
-
-.location {
-	font-size: 16px;
-	margin-top: 20px;
-}
-
-.date {
-	font-size: 16px;
-}
-
 .sub-banner {
-	/*margin-left: 46vw;*/
+	font-size: var(--font-size-subhead);
+	font-weight: normal;
+}
+
+.sub-banner-location {
+	font-size: var(--font-size-text);
+	margin-top: 5px;
+}
+
+.sub-banner-date {
+	font-size: var(--font-size-text);
+}
+
+.sub-banner-link {
+	color: var(--white);
+	font-size: var(--font-size-text);
+	margin-top: 5px;
+	padding: 3px 5px;
+}
+
+.sub-banner-link-1 {
+	background-color: var(--purple);
+}
+
+.sub-banner-link-2 {
+	background-color: var(--blue);
 }
 
 .flex {
@@ -241,6 +233,7 @@ a:hover {
 	/*margin-left: 12vw;*/
 	/*margin-top: 290px;*/
 	margin-left: -72%;
+	margin-bottom: 10px;
 	width: 80%;
 }
 
@@ -252,36 +245,54 @@ a:hover {
 	width: 550px;
 }
 
+.logo-top-subcontainer {
+	/*border: 2px solid orange;*/
+	/*margin-left: -5%;*/
+	/*width: 100%;*/
+}
+
+.logo-top-subcontainer-1 {
+	flex-grow: 1;
+}
+
+.logo-top-subcontainer-2 {
+	flex-grow: 2;
+}
+
 .home-section {
 	margin-bottom: 250px;
 }
 
 .plan-section {
 	margin-top: 100px;
-	padding-bottom: 200px;
+	/*padding-bottom: 50px;*/
 }
 
 .navbar {
 	background-color: var(--white);
-	list-style: none;
-	justify-content: space-around;
-	padding-right: 16%;
+	height: 50px;
 	position: fixed;
-	/*margin-top: 25px;*/
-	padding-top: 8px;
 	width: 100vw;
 	z-index: 1000;
+}
+
+.navbar-ul {
+	background-color: var(--white);
+	list-style: none;
+	width: 75%;
 }
 
 .navbar-colorbug {
 	height: 42.7px;
 	margin-left: 5%;
 	padding-top: 5px;
+	position: fixed;
+	z-index: 1001;
 }
 
 .navitem {
 	color: var(--blue);
-	font-size: 14px;
+	font-size: var(--font-size-subhead);
 	padding: 10px;
 }
 
@@ -317,7 +328,7 @@ a:hover {
 
 .partners-head {
 	color: white;
-	font-size: var(--header-font-size);
+	font-size: var(--font-size-header);
 	margin-left: 40%;
 	padding-top: 120px;
 	width:100%;
@@ -331,7 +342,7 @@ a:hover {
 .partner-contact-btn {
 	background-color: var(--purple);
 	color: var(--white);
-	font-size: 16px;
+	font-size: var(--font-size-subhead);
 	margin-top: 25px;
 	padding: 8px 10px;
 }
@@ -345,7 +356,7 @@ a:hover {
 }
 
 .partner-contact-text {
-	font-size: 14px;
+	font-size: var(--font-size-subhead);
 	margin-top: 15px;
 }
 
@@ -374,7 +385,7 @@ a:hover {
 .plan-header {
 	/*align-self: center;*/
 	font-family: Access;
-	font-size: var(--header-font-size);
+	font-size: var(--font-size-header);
 	/*padding-left: 35vw;*/
 	/*margin-top: 450px;*/
 	/*margin-bottom: -50px;*/
@@ -426,12 +437,13 @@ a:hover {
 .plan-vert-line {
 	border-left: 2px solid black;
 	position: absolute;
-	height: 1500px;
+	height: 1300px;
 	margin-top: -250px;
 	width: var(--faq-right-adj) !important;
 }
 
 .schedule-item {
+	font-size: var(--font-size-subhead);
 	margin-top: 50px;
 	width: 100%;
 }
@@ -440,7 +452,7 @@ a:hover {
 	background-color: black;
 	color: white;
 	cursor: pointer;
-	font-size: 14px;
+	font-size:  var(--font-size-subhead);
 	opacity: 1;
 	padding: 3px 8px 4px 6px;
 }
@@ -452,7 +464,7 @@ a:hover {
 
 .schedule-item-text {
 	color: var(--blue);
-	font-size: 16px;
+	font-size: var(--font-size-text);
 	padding-left: 2vw;
 	margin-top: -45px;
 	width: 45%;

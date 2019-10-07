@@ -22,23 +22,26 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
   </head>
 
-<a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:30px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2020/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2020-season&utm_content=gray" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2020/mlh-trust-badge-2020-gray.svg" alt="Major League Hacking 2020 Hackathon Season" style="width:100%"></a>
+<a id="mlh-trust-badge" style="display:block;max-width:40px;min-width:30px;position:fixed;right:20px;top:0;width:6%;z-index:10000" href="https://mlh.io/seasons/na-2020/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2020-season&utm_content=gray" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2020/mlh-trust-badge-2020-gray.svg" alt="Major League Hacking 2020 Hackathon Season" style="width:100%"></a>
 
   <body>
-
+    <img class="debug-border navbar-colorbug" src="./static/CUhackit_RGB_Bug_Color.svg" alt="CUhackit ColorBug">
     <!-- CONTENT -->
-
+    <div class="navbar flex flex-center">
+        
     	<!-- NavBar --> 
-  	<ul class="navbar flex flex-align-center debug-border">
-  		<li>
-            <img class="debug-border navbar-colorbug" src="./static/CUhackit_RGB_Bug_Color.svg" alt="CUhackit ColorBug">
-        </li>
-        <li class="debug-border"><a class="navitem" href="#Home" onclick="smoothScroll(document.getElementById('Home'))">Home</a></li>
-  		<li class="debug-border"><a class="navitem" href="#About" onclick="smoothScroll(document.getElementById('About'))">About</a></li>
-  		<li class="debug-border"><a class="navitem" href="#Schedule" onclick="smoothScroll(document.getElementById('Schedule'))">Schedule</a></li>
-  		<li class="debug-border"><a class="navitem" href="#Partners" onclick="smoothScroll(document.getElementById('Partners'))">Partners</a></li>
-  		<!-- <li><a class="non-mobile" id="mlh-trust-badge" style="display:block;max-width:60px;min-width:60px;position:absolute;right:25px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=gray" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-gray.svg" alt="Major League Hacking 2019 Hackathon Season" style="width:100%"></a></li> -->
-  	</ul>
+      	<ul class="navbar-ul flex flex-space-around flex-align-center debug-border">
+      		<li>
+                
+            </li>
+            <li class="debug-border"><a class="navitem" href="#Home" onclick="smoothScroll(document.getElementById('Home'))">Home</a></li>
+      		<li class="debug-border"><a class="navitem" href="#About" onclick="smoothScroll(document.getElementById('About'))">About</a></li>
+      		<li class="debug-border"><a class="navitem" href="#Schedule" onclick="smoothScroll(document.getElementById('Schedule'))">Schedule</a></li>
+      		<li class="debug-border"><a class="navitem" href="#Partners" onclick="smoothScroll(document.getElementById('Partners'))">Partners</a></li>
+      		<!-- <li><a class="non-mobile" id="mlh-trust-badge" style="display:block;max-width:60px;min-width:60px;position:absolute;right:25px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=gray" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-gray.svg" alt="Major League Hacking 2019 Hackathon Season" style="width:100%"></a></li> -->
+      	</ul>
+    </div>
+
     <div id="Home"></div>
 
     <div id="squares-top" style="width:100%;max-width: 1920px;">
@@ -52,15 +55,28 @@
         		<img src="./static/CUhackit_Combined_Logo_RGB_Color_STANDARD.svg" alt="LOGO" class="inline-block logo-top debug-border">
         		<!-- <h1 class="inline-block">CUhackit</h1> -->
         	</div>
-        	<div class="debug-border flex-column flex-align-start">
-                <h4 class="sub-banner helloworld">Join us for HelloWorld!</h4>
-        		<h4 class="sub-banner location">Clemson University</h4>
-                <h4 class="sub-banner date">Saturday, October 19th</h4>
-        	</div>
-        	<div class="debug-border flex flex-start app-links">
-        		<a href="https://docs.google.com/forms/d/e/1FAIpQLSdbhS4I3O2KnvdzwGZeAwB9AZ0bpjfhLrf5fYkYUG-XlGkfew/viewform" class="app-link app-link-1">Apply to Participate</a>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeJKkoQb4NvSUvmW4_KO3tpFmr1JyazT6A0DQUZkAsXnf2YQQ/viewform" class="app-link app-link-2">Apply to Mentor</a>
-        	</div>
+            <div class="flex flex-start logo-top-subcontainer">
+                <div class="logo-top-subcontainer-1">
+                	<div class="debug-border flex-column flex-align-start">
+                        <h4 class="sub-banner">Join us for HelloWorld!</h4>
+                		<h4 class="sub-banner sub-banner-location">Clemson University</h4>
+                        <h4 class="sub-banner sub-banner-date">Saturday, October 19th</h4>
+                	</div>
+                	<div class="debug-border flex flex-start">
+                		<a href="https://docs.google.com/forms/d/e/1FAIpQLSdbhS4I3O2KnvdzwGZeAwB9AZ0bpjfhLrf5fYkYUG-XlGkfew/viewform" class="sub-banner-link sub-banner-link-1">Apply to Participate</a>
+                	</div>
+                </div>
+                <div class="logo-top-subcontainer-2">
+                    <div class="debug-border flex-column flex-align-start">
+                        <h4 class="sub-banner sub-banner">Join us for CUhackit!</h4>
+                        <h4 class="sub-banner sub-banner-location">Clemson University</h4>
+                        <h4 class="sub-banner sub-banner-date">Spring, 2019</h4>
+                    </div>
+                    <div class="debug-border flex flex-start">
+                        <a  href="https://cuhack.it/about" class="sub-banner-link sub-banner-link-2">Learn more and apply</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
